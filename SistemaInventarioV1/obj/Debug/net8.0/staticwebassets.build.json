@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "kKRHN/DvuiLVGqX3sj1rw/pXyJCS6qyfitMhszM9YWU=",
+  "Hash": "nTbx7xXdEr/kUh1/4PYgaRwjIewgm8y0iY/6x1q0VhY=",
   "Source": "SistemaInventarioV1",
   "BasePath": "_content/SistemaInventarioV1",
   "Mode": "Default",
@@ -129,6 +129,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\categoria.js"
+    },
+    {
+      "Identity": "C:\\SistemaInventarioV1\\SistemaInventarioV1\\wwwroot\\js\\marca.js",
+      "SourceId": "SistemaInventarioV1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\SistemaInventarioV1\\SistemaInventarioV1\\wwwroot\\",
+      "BasePath": "_content/SistemaInventarioV1",
+      "RelativePath": "js/marca.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\marca.js"
     },
     {
       "Identity": "C:\\SistemaInventarioV1\\SistemaInventarioV1\\wwwroot\\js\\site.js",
