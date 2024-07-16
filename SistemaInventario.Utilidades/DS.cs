@@ -8,5 +8,8 @@ namespace SistemaInventario.Utilidades
 {
     public static class DS
     {
+        //ubicamos las variables estaticas que se usan dentro del proyecto
+        public const string Exitosa = "Exitosa";
+        public const string Error = "Error";
     }
 }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "T8pkEb9UikYccuDgpEeJ0jSo7rTCQTw8LQXbKY2BeU8=",
+  "Hash": "wg/LasvXeLR0Phpa5sfm6irPODmyPwTE7o0GKyCj2Qs=",
   "Source": "SistemaInventarioV1",
   "BasePath": "_content/SistemaInventarioV1",
   "Mode": "Default",
@@ -91,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\SistemaInventarioV1\\SistemaInventarioV1\\wwwroot\\js\\bodega.js",
+      "SourceId": "SistemaInventarioV1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\SistemaInventarioV1\\SistemaInventarioV1\\wwwroot\\",
+      "BasePath": "_content/SistemaInventarioV1",
+      "RelativePath": "js/bodega.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\bodega.js"
     },
     {
       "Identity": "C:\\SistemaInventarioV1\\SistemaInventarioV1\\wwwroot\\js\\site.js",
