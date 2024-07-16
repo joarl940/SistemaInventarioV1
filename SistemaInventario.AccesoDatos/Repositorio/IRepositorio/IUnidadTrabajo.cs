@@ -9,6 +9,7 @@ namespace SistemaInventario.AccesoDatos.Repositorio.IRepositorio
     public interface IUnidadTrabajo : IDisposable // liberar objetos que no se esten usando o esten consumiendo recursos
     {
         IBodegaRepositorio Bodega { get; }
+        ICategoriaRepositorio Categoria { get; }
 
         Task Guardad();
     }

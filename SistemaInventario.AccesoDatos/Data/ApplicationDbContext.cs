@@ -13,6 +13,8 @@ namespace SistemaInventarioV1.AccesoDatos.Data
         }
         public DbSet<Bodega> Bodegas { get; set; }
 
+        public DbSet<Categoria> Categorias { get; set; }
+
 
         //se hace un override a un metodo que ya existe para cambiar las caractieristicas
         protected override void OnModelCreating(ModelBuilder builder)
