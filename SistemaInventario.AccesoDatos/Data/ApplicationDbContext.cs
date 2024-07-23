@@ -17,6 +17,8 @@ namespace SistemaInventarioV1.AccesoDatos.Data
 
         public DbSet<Marca> Marcas { get; set; }
 
+        public DbSet<Producto> Productos { get; set; }
+
 
         //se hace un override a un metodo que ya existe para cambiar las caractieristicas
         protected override void OnModelCreating(ModelBuilder builder)

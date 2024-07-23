@@ -11,5 +11,7 @@ namespace SistemaInventario.Utilidades
         //ubicamos las variables estaticas que se usan dentro del proyecto
         public const string Exitosa = "Exitosa";
         public const string Error = "Error";
+
+        public const string ImagenRuta = @"\imagenes\producto\";
     }
 }
