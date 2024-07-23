@@ -13,6 +13,18 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\SistemaInventarioV1\\SistemaInventarioV1\\wwwroot\\imagenes\\icono.ico",
+      "PackagePath": "staticwebassets\\imagenes\\icono.ico"
+    },
+    {
+      "Id": "C:\\SistemaInventarioV1\\SistemaInventarioV1\\wwwroot\\imagenes\\icono.png",
+      "PackagePath": "staticwebassets\\imagenes\\icono.png"
+    },
+    {
+      "Id": "C:\\SistemaInventarioV1\\SistemaInventarioV1\\wwwroot\\imagenes\\producto\\6d0e3d93-a9d3-4fd6-92e8-1f413f9da85d.JPG",
+      "PackagePath": "staticwebassets\\imagenes\\producto\\6d0e3d93-a9d3-4fd6-92e8-1f413f9da85d.JPG"
+    },
+    {
       "Id": "C:\\SistemaInventarioV1\\SistemaInventarioV1\\wwwroot\\imagenes\\producto\\db52491e-c18f-4c3a-b1ab-96b08dba7ed4.JPG",
       "PackagePath": "staticwebassets\\imagenes\\producto\\db52491e-c18f-4c3a-b1ab-96b08dba7ed4.JPG"
     },
