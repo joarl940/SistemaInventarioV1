@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\SistemaInventarioV1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{24CA1038-7963-469D-BD3D-E8FCFA9EF23A}|SistemaInventario.AccesoDatos\\SistemaInventario.AccesoDatos.csproj|c:\\sistemainventariov1\\sistemainventario.accesodatos\\migrations\\20240730203414_agregarcampostablausuariomigracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24CA1038-7963-469D-BD3D-E8FCFA9EF23A}|SistemaInventario.AccesoDatos\\SistemaInventario.AccesoDatos.csproj|solutionrelative:sistemainventario.accesodatos\\migrations\\20240730203414_agregarcampostablausuariomigracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4B3C313F-A871-49D9-9613-1C9A0698D6C2}|SistemaInventarioV1\\SistemaInventarioV1.csproj|c:\\sistemainventariov1\\sistemainventariov1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B3C313F-A871-49D9-9613-1C9A0698D6C2}|SistemaInventarioV1\\SistemaInventarioV1.csproj|solutionrelative:sistemainventariov1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{24CA1038-7963-469D-BD3D-E8FCFA9EF23A}|SistemaInventario.AccesoDatos\\SistemaInventario.AccesoDatos.csproj|c:\\sistemainventariov1\\sistemainventario.accesodatos\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24CA1038-7963-469D-BD3D-E8FCFA9EF23A}|SistemaInventario.AccesoDatos\\SistemaInventario.AccesoDatos.csproj|solutionrelative:sistemainventario.accesodatos\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4B3C313F-A871-49D9-9613-1C9A0698D6C2}|SistemaInventarioV1\\SistemaInventarioV1.csproj|c:\\sistemainventariov1\\sistemainventariov1\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4B3C313F-A871-49D9-9613-1C9A0698D6C2}|SistemaInventarioV1\\SistemaInventarioV1.csproj|solutionrelative:sistemainventariov1\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D17F76B3-1603-48ED-905A-2FBF77FB9916}|SistemaInventario.Modelos\\SistemaInventario.Modelos.csproj|c:\\sistemainventariov1\\sistemainventario.modelos\\usuarioaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D17F76B3-1603-48ED-905A-2FBF77FB9916}|SistemaInventario.Modelos\\SistemaInventario.Modelos.csproj|solutionrelative:sistemainventario.modelos\\usuarioaplicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4B3C313F-A871-49D9-9613-1C9A0698D6C2}|SistemaInventarioV1\\SistemaInventarioV1.csproj|c:\\sistemainventariov1\\sistemainventariov1\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B3C313F-A871-49D9-9613-1C9A0698D6C2}|SistemaInventarioV1\\SistemaInventarioV1.csproj|solutionrelative:sistemainventariov1\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67D42A24-65F1-4BEA-B620-CE39573993E6}|SistemaInventario.Utilidades\\SistemaInventario.Utilidades.csproj|c:\\sistemainventariov1\\sistemainventario.utilidades\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67D42A24-65F1-4BEA-B620-CE39573993E6}|SistemaInventario.Utilidades\\SistemaInventario.Utilidades.csproj|solutionrelative:sistemainventario.utilidades\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67D42A24-65F1-4BEA-B620-CE39573993E6}|SistemaInventario.Utilidades\\SistemaInventario.Utilidades.csproj|c:\\sistemainventariov1\\sistemainventario.utilidades\\ds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67D42A24-65F1-4BEA-B620-CE39573993E6}|SistemaInventario.Utilidades\\SistemaInventario.Utilidades.csproj|solutionrelative:sistemainventario.utilidades\\ds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,41 +42,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20240730203414_AgregarCamposTablaUsuarioMigracion.cs",
-              "DocumentMoniker": "C:\\SistemaInventarioV1\\SistemaInventario.AccesoDatos\\Migrations\\20240730203414_AgregarCamposTablaUsuarioMigracion.cs",
-              "RelativeDocumentMoniker": "SistemaInventario.AccesoDatos\\Migrations\\20240730203414_AgregarCamposTablaUsuarioMigracion.cs",
-              "ToolTip": "C:\\SistemaInventarioV1\\SistemaInventario.AccesoDatos\\Migrations\\20240730203414_AgregarCamposTablaUsuarioMigracion.cs",
-              "RelativeToolTip": "SistemaInventario.AccesoDatos\\Migrations\\20240730203414_AgregarCamposTablaUsuarioMigracion.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 3,
+              "Title": "EmailSender.cs",
+              "DocumentMoniker": "C:\\SistemaInventarioV1\\SistemaInventario.Utilidades\\EmailSender.cs",
+              "RelativeDocumentMoniker": "SistemaInventario.Utilidades\\EmailSender.cs",
+              "ToolTip": "C:\\SistemaInventarioV1\\SistemaInventario.Utilidades\\EmailSender.cs",
+              "RelativeToolTip": "SistemaInventario.Utilidades\\EmailSender.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-30T20:34:14.911Z",
+              "WhenOpened": "2024-07-30T21:27:23.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\SistemaInventarioV1\\SistemaInventarioV1\\Program.cs",
+              "RelativeDocumentMoniker": "SistemaInventarioV1\\Program.cs",
+              "ToolTip": "C:\\SistemaInventarioV1\\SistemaInventarioV1\\Program.cs",
+              "RelativeToolTip": "SistemaInventarioV1\\Program.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAABAAAAByAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T21:14:05.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DS.cs",
+              "DocumentMoniker": "C:\\SistemaInventarioV1\\SistemaInventario.Utilidades\\DS.cs",
+              "RelativeDocumentMoniker": "SistemaInventario.Utilidades\\DS.cs",
+              "ToolTip": "C:\\SistemaInventarioV1\\SistemaInventario.Utilidades\\DS.cs",
+              "RelativeToolTip": "SistemaInventario.Utilidades\\DS.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T21:02:32.385Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\SistemaInventarioV1\\SistemaInventario.AccesoDatos\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "SistemaInventario.AccesoDatos\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\SistemaInventarioV1\\SistemaInventario.AccesoDatos\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "SistemaInventario.AccesoDatos\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAABHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-30T20:30:19.806Z",
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\SistemaInventarioV1\\SistemaInventarioV1\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "SistemaInventarioV1\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\SistemaInventarioV1\\SistemaInventarioV1\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "SistemaInventarioV1\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAAEIAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-30T20:51:52.132Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "UsuarioAplicacion.cs",
-              "DocumentMoniker": "C:\\SistemaInventarioV1\\SistemaInventario.Modelos\\UsuarioAplicacion.cs",
-              "RelativeDocumentMoniker": "SistemaInventario.Modelos\\UsuarioAplicacion.cs",
-              "ToolTip": "C:\\SistemaInventarioV1\\SistemaInventario.Modelos\\UsuarioAplicacion.cs",
-              "RelativeToolTip": "SistemaInventario.Modelos\\UsuarioAplicacion.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAkwCYAAAAAAAAA",
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "C:\\SistemaInventarioV1\\SistemaInventarioV1\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "SistemaInventarioV1\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "C:\\SistemaInventarioV1\\SistemaInventarioV1\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "SistemaInventarioV1\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AQIAAHIAAAAAAAAAAAAswIkAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-30T20:23:05.45Z",
+              "WhenOpened": "2024-07-30T20:48:21.43Z",
               "EditorCaption": ""
             }
           ]
