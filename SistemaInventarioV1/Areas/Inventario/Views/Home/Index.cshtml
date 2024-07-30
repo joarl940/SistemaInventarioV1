@@ -52,14 +52,15 @@
             <i class="bi bi-skip-start-fill"></i>
         </a>
 
-        <a asp-action="Index" asp-route-pageNumber="@((int)ViewData["PageNumber"]-1)" class="btn btn-outline-primary @ViewData["Previo"]"
-           asp-route-busquedaActual="@ViewData["BusquedaActual"]">
+        <a asp-action="Index" 
+            asp-route-pageNumber="@((int)ViewData["PageNumber"]-1)" class="btn btn-outline-primary @ViewData["Previo"]"
+            asp-route-busquedaActual="@ViewData["BusquedaActual"]">
             Anterior
         </a>
         <span>Pagina @ViewData["PageNumber"] de @ViewData["TotalPaginas"]</span>
 
         <a asp-action="Index" 
-         asp-route-pageNumber="@((int)ViewData["PageNumber"]+1)"class="btn btn-outline-primary @ViewData["Siguiente"]"
+           asp-route-pageNumber="@((int)ViewData["PageNumber"]+1)" class="btn btn-outline-primary @ViewData["Siguiente"]"
            asp-route-busquedaActual="@ViewData["BusquedaActual"]">
             Siguiente
         </a>

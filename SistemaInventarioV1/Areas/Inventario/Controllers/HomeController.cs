@@ -49,14 +49,14 @@ namespace SistemaInventarioV1.Areas.Inventario.Controllers
             ViewData["TotalRegistros"] = resultado.MetaData.TotalCount;
             ViewData["PageSize"] = resultado.MetaData.PageSize;
             ViewData["PageNumber"] = pageNumber;
-            ViewData["Previo"] = "disable";//clase css para desactivar el boton
+            ViewData["Previo"] = "disabled";//clase css para desactivar el boton
             ViewData["Siguiente"] = "";
 
             if (pageNumber>1)
             {
                 ViewData["Previo"] = "";
             }
-            if (resultado.MetaData.TotalPages>=pageNumber)
+            if (resultado.MetaData.TotalPages<=pageNumber)
             {
                 ViewData["Siguiente"] = "disabled";
             }
