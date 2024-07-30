@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using SistemaInventario.AccesoDatos.Repositorio.IRepositorio;
+using SistemaInventario.Modelos.Especificaciones;
 using SistemaInventarioV1.AccesoDatos.Data;
 using System;
 using System.Collections.Generic;
@@ -78,6 +79,32 @@ namespace SistemaInventario.AccesoDatos.Repositorio
                 query = query.AsNoTracking();
             }
             return await query.ToListAsync();
+        }
+
+        public PagedList<T> ObtenerTodosPaginado(Parmetros parametros, Expression<Func<T, bool>> filtro = null, Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null, string incluirPropiedades = null, bool isTraking = true)
+        {
+            IQueryable<T> query = dbSet;
+            if (filtro != null)
+            {
+                query = query.Where(filtro); // es igual a un select * from where ..... condiciones
+            }
+            if (incluirPropiedades != null)
+            {
+                //recorrer los filtros que vienen convirtiendolos a tipo char
+                foreach (var incluirProp in incluirPropiedades.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries))
+                {
+                    query = query.Include(incluirProp); // ejemplo "categoria, marca"
+                }
+            }
+            if (orderBy != null)
+            {
+                query = orderBy(query);
+            }
+            if (!isTraking)
+            {
+                query = query.AsNoTracking();
+            }
+            return PagedList<T>.ToPagegList(query, parametros.PageNumber, parametros.PageSize);
         }
 
         public void Remover(T entidad)
