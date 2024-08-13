@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.CodeAnalysis.Operations;
 using Microsoft.DotNet.Scaffolding.Shared.Messaging;
 using SistemaInventario.AccesoDatos.Repositorio.IRepositorio;
@@ -8,6 +9,7 @@ using SistemaInventario.Utilidades;
 namespace SistemaInventarioV1.Areas.Admin.Controllers
 {
     [Area("Admin")]// se debe piner el atributo de area para poder visualizar 
+    [Authorize(Roles = DS.Role_Admin)]  //obligar al loggeo
     public class CategoriaController : Controller
     {
         //referenciar la unidad de trabajo que ya es un servicio

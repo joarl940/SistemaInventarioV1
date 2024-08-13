@@ -1,12 +1,15 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.DotNet.Scaffolding.Shared.Messaging;
 using Microsoft.EntityFrameworkCore;
 using SistemaInventario.AccesoDatos.Repositorio.IRepositorio;
+using SistemaInventario.Utilidades;
 using SistemaInventarioV1.AccesoDatos.Data;
 
 namespace SistemaInventarioV1.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = DS.Role_Admin)]  //obligar al loggeo
     public class UsuarioController : Controller
     {
         private readonly IUnidadTrabajo _unidadTrabajo;
